@@ -24,9 +24,9 @@ for n in primes():
         print(n)
     else:
         break
+
+
 # 用filter筛选回数
-
-
 def is_palindrome(n):
     return n == int(str(n)[::-1])
 
